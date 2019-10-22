@@ -1,6 +1,4 @@
 def oxford_comma(array)
-
-
-
-["fiddleheads","okra","kohlrabi"] should get converted to the string "fiddleheads, okra, and kohlrabi".
+("fiddleheads","okra","kohlrabi").to_a
+  => [fiddleheads, okra, and kohlrabi"]
 end
